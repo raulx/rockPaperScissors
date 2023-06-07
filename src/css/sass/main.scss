@@ -1,0 +1,30 @@
+@import './abstracts/_variables.scss';
+@import './components/_header.scss';
+@import './components/_score.scss';
+@import './components/_triangle.scss';
+
+
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    background-image: $radial-Gradient;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+}
+
+.container{
+    max-width: 1366px;
+    height:100vh;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+

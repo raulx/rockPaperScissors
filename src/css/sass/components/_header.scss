@@ -1,0 +1,17 @@
+.header{
+    border: .5rem solid $header-outline;
+    border-radius: 3rem;
+    padding: 3rem 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    &__text{
+        width: 25%;
+        display: inline-block;
+        &--h1{
+            font-size: 5em;
+            text-transform: uppercase;
+         
+        }
+    }
+}

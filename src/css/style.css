@@ -1,19 +1,72 @@
-*{
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+.header {
+  border: 0.5rem solid hsl(217, 16%, 45%);
+  border-radius: 3rem;
+  padding: 3rem 4rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.header__text {
+  width: 25%;
+  display: inline-block;
+}
+.header__text--h1 {
+  font-size: 5em;
+  text-transform: uppercase;
 }
 
-
-body{
-    box-sizing: border-box;
-    font-size: 1.6rem;
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  width: 20%;
+}
+.score__text {
+  font-size: 2rem;
+  color: hsl(229, 64%, 46%);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.score__number {
+  font-size: 8rem;
+  color: hsl(229, 25%, 31%);
+  font-weight: 700;
 }
 
-
-.container{
-    max-width: 1100px;
-    height: 100vh;
-    margin: 0 auto;
-    background-color: #777;;
+.triangle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60rem;
+  width: 100%;
 }
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  max-width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
