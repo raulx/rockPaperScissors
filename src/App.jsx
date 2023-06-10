@@ -8,9 +8,8 @@ function App(){
     const [choice,setChoice] = useState('paper');
 
     function handleClick(e){
-        console.log(e.target.id)
         setChoice(e.target.id)
-        setRender('change')
+        setRender('result')
     }
     return <div className="container">
         <div className="header">
