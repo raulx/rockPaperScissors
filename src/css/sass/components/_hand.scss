@@ -1,0 +1,29 @@
+
+.hand{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    &__box{
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6.5rem;
+
+        &__icon{
+            transition: all .2s;
+            transform: scale(1.5);
+        }
+        &:hover &__icon{
+            transform: scale(1.6);
+        }
+    }
+    
+  }

@@ -1,6 +1,33 @@
 .triangle{
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60rem;
-    width: 100%;
+    background-position: center;
+    height: 50rem;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    & > :nth-child(1){
+        position: absolute;
+        top: 0;
+        left:0;
+        transform: translate(-10%,-25%);
+        background: $paper-gradient;
+    }
+    & > :nth-child(2){
+        position: absolute;
+        top:0;
+        right:0;
+        transform: translate(10%,-25%);
+
+        background: $scissors-gradient;
+    }
+    & > :nth-child(3){
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $rock-gradient;
+    }
+    
 }
+

@@ -42,8 +42,59 @@
 .triangle {
   background-size: contain;
   background-repeat: no-repeat;
-  height: 60rem;
-  width: 100%;
+  background-position: center;
+  height: 50rem;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.triangle > :nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-10%, -25%);
+  background: linear-gradient(to right, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+}
+.triangle > :nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(10%, -25%);
+  background: linear-gradient(to right, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+.triangle > :nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+}
+
+.hand {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.hand__box {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5rem;
+}
+.hand__box__icon {
+  transition: all 0.2s;
+  transform: scale(1.5);
+}
+.hand__box:hover .hand__box__icon {
+  transform: scale(1.6);
 }
 
 * {
@@ -67,6 +118,9 @@ body {
   height: 100vh;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
 }
 
 /*# sourceMappingURL=style.css.map */
