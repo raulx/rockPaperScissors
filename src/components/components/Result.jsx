@@ -101,7 +101,7 @@ function Result({choice,changeScore,onClick}){
         
         <div className=" choice">
             {Object.keys(compChoice).length === 0 ? <p></p>:<h2 className="choice--text">the house picked</h2>} 
-            {Object.keys(compChoice).length === 0 ? <h2 className="choice--text">Thinking...</h2>:<Hand imgSource={compChoice.img2} style={compChoice.style2}/>}
+            {Object.keys(compChoice).length === 0 ? <h1 className="choice--text">Thinking...</h1>:<Hand imgSource={compChoice.img2} style={compChoice.style2}/>}
             
         </div>
     </div>
