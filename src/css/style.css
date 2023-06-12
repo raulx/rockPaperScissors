@@ -156,7 +156,7 @@
   border: 0.2rem solid #fff;
   color: #fff;
   border-radius: 0.8rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
 }
 
@@ -279,6 +279,19 @@ body {
   }
   .choice h2:nth-child(1) {
     order: 2;
+  }
+  .btn--secondary {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-height: 900px) {
+  .winner {
+    bottom: 40%;
+  }
+  .btn--secondary {
+    bottom: 30%;
   }
 }
 
