@@ -223,7 +223,7 @@ body {
   gap: 12rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   html {
     font-size: 45%;
   }
@@ -284,14 +284,6 @@ body {
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
-  }
-}
-@media (max-height: 900px) {
-  .winner {
-    bottom: 40%;
-  }
-  .btn--secondary {
-    bottom: 30%;
   }
 }
 
