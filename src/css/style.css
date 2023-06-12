@@ -202,5 +202,16 @@ body {
     font-size: 24%;
   }
 }
+@media (max-width: 375px) {
+  html {
+    font-size: 24%;
+  }
+  .winner {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
