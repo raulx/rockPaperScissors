@@ -286,13 +286,5 @@ body {
     transform: translateX(-50%);
   }
 }
-@media (max-height: 900px) {
-  .winner {
-    bottom: 40%;
-  }
-  .btn--secondary {
-    bottom: 30%;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
