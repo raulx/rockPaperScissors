@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    max-width: 1366px;
+    max-width: 136.6rem;
     height:100vh;
     margin: 0 auto;
     padding: 4rem 2rem;
@@ -96,13 +96,14 @@ body{
       transform: translateX(-50%);
     }
   }
-  // @media(max-height:900px){
-  //   .winner{
-  //     bottom: 40%;
-  //   }
-  //   .btn--secondary{
-  //     bottom: 30%;
-  //   }
-  // }
+  @media(max-height:900px){
+    .winner{
+      bottom: 40%;
+    }
+    .btn--secondary{
+      bottom: 30%;
+    }
+  }
+
 
   
